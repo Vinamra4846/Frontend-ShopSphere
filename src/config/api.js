@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-const DEPLOYED = 'https://ecommerce-backend-production-62a9.up.railway.app'
+const DEPLOYED = 'https://shop-sphere-backend-q13s.onrender.com'
 const LOCALHOST = 'http://localhost:5454'
 
 export const API_BASE_URL = process.env.REACT_APP_API_URL || LOCALHOST
