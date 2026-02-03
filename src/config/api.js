@@ -1,8 +1,7 @@
 
 import axios from 'axios';
-const DEPLOYED_URL = 'https://shop-sphere-backend-q13s.onrender.com'
 
-export const API_BASE_URL = process.env.REACT_APP_API_URL || DEPLOYED_URL
+export const API_BASE_URL = 'https://shop-sphere-backend-q13s.onrender.com'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
